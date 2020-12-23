@@ -1,4 +1,4 @@
----
+<!-- ---
 title: 手把手教你使用 VuePress 搭建个人博客
 sidebar: auto
 sidebarDepth: 2
@@ -352,14 +352,14 @@ npm run build
 cd docs/.vuepress/dist
 
 # 如果是发布到自定义域名
-echo 'www.zhangyunchen.cc' > CNAME
+echo 'www.tiantian.cc' > CNAME
 
 git init
 git add -A
 git commit -m 'deploy'
 
 # 如果你想要部署到 https://<USERNAME>.github.io
-git push -f git@github.com:zhangyunchencc/zhangyunchencc.github.io.git master
+git push -f git@github.com:tiantian2xf/projectSpecification.git master
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>  REPO=github上的项目
 # git push -f git@github.com:<USERNAME>/vuepress.git master:gh-pages
@@ -370,7 +370,7 @@ cd -
 
 此时，我们运行 npm run deploy 即可发布到自己的专属域名啦~
 
-### :clap: 大功告成，打开 [https://www.zhangyunchen.cc](https://www.zhangyunchen.cc) 看一下吧~~~
+### :clap: 大功告成，打开 [https://www.tiantian.cc](https://www.tiantian.cc) 看一下吧~~~
 
 拥有自己专属域名的个人博客感觉很酷哦~
 
@@ -386,7 +386,4 @@ cd -
 
 以上，
 
-
-张韵晨 | Front End Engineer | 2018.10
-
-
+ -->

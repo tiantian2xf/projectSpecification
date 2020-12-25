@@ -1,7 +1,7 @@
 ---
 home: true
-heroImage: /images/photo.jpg
-actionText: 快速上手 →
+heroImage: ""
+actionText: GO →
 actionLink: guide.html
 features:
 - title: 简洁至上

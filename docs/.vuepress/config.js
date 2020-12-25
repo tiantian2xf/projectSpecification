@@ -1,10 +1,10 @@
 module.exports = {
-  title: '个人主页',
-  description: 'Personal Website',
+  title: '前端开发规范',
+  description: 'Front-end Development Specification',
   head: [ // 注入到当前页面的 HTML <head> 中的标签
-    ['link', { rel: 'icon', href: '/images/photo.jpg' }],
-    ['link', { rel: 'manifest', href: '/images/photo.jpg' }],
-    ['link', { rel: 'apple-touch-icon', href: '/images/photo.jpg' }],
+    ['link', { rel: 'icon', href: '/images/logo.png' }],
+    // ['link', { rel: 'manifest', href: '/images/photo.jpg' }],
+    // ['link', { rel: 'apple-touch-icon', href: '/images/photo.jpg' }],
     ['meta', { 'http-quiv': 'pragma', cotent: 'no-cache'}],
     ['meta', { 'http-quiv': 'pragma', cotent: 'no-cache,must-revalidate'}],
     ['meta', { 'http-quiv': 'expires', cotent: '0'}]
@@ -16,10 +16,25 @@ module.exports = {
   },
   themeConfig: {
     nav:[ // 导航栏配置
-      {text: '前端基础', link: '/accumulate/' },
-      {text: '算法题库', link: '/algorithm/'},
-      {text: '诗和远方', link: '/others/'},
-      {text: '微博', link: 'https://baidu.com'}      
+      // 大概的写了一点，这两周在做临时上线的需求，和1.4的UI走查，没花太多时间写
+      // 分了八类：
+      // 开发流程规范：需求开发流程、缺陷修复指派流程、上线流程
+      // 项目文档：readme
+      // 新人手册：开发工具、环境、VPN申请、JCI账号申请
+      // 编码规范：命名、文件目录...
+      // 日志规范
+      // 仓库&分支创建流程及规范
+      // 开发工作版本
+      // Nginx日志规范
+      {text: '新人手册', link: '/rookieHandbook/'},
+      {text: '编码规范', link: '/codingSpecification/'},
+      {text: 'UI设计规范', link: '/UIDesignSpecification/'},
+      {text: '开发流程规范', link: '/developmentProcess/' },
+      {text: '项目文档Readme', link: '/readmeProcess/'},
+      {text: '日志规范', link: '/logSpecification/'} ,
+      {text: '仓库&分支规范', link: '/warehouseBranchSpecification/'} ,
+      {text: '开发版本规范', link: '/developmentVersionSpecification/'} ,
+      {text: 'Nginx日志规范', link: '/nginxLogSpecification/'} 
     ],
     // sidebar:{
     //   '/accumulate/': [

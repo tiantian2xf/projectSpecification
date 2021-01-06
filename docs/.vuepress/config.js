@@ -28,9 +28,9 @@ module.exports = {
       // Nginx日志规范
       {text: '新人手册', link: '/rookieHandbook/'},
       {text: '编码规范', link: '/codingSpecification/'},
-      {text: 'UI设计规范', link: '/UIDesignSpecification/'},
-      {text: '开发流程规范', link: '/developmentProcess/' },
-      {text: '项目文档Readme', link: '/readmeProcess/'},
+      {text: 'UI规范', link: '/UIDesignSpecification/'},
+      {text: '开发规范', link: '/developmentProcess/' },
+      {text: '项目文档', link: '/readmeProcess/'},
       {text: '日志规范', link: '/logSpecification/'} ,
       {text: '仓库&分支规范', link: '/warehouseBranchSpecification/'} ,
       {text: '开发版本规范', link: '/developmentVersionSpecification/'} ,

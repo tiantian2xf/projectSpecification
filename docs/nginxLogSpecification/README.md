@@ -34,9 +34,9 @@ nginx_http_split_clients_module”、“nginx_stream_split_clients_module”分�
 ```
 http {
     split_clients "${remote_addr}AAA" $variant {
-                   0.5%               .one;
-                   2.0%               .two;
-                   *                  "";
+        0.5%    .one;
+        2.0%    .two;
+        *       "";
     }
 
     server {

@@ -8,10 +8,10 @@
 ![](./images/vpn.jpg)
 
 2）JCI账号申请模板  
-![Image text](./images/jci-account.jpg)
+![](./images/jci-account.jpg)
 
 3）禅道申请模板 
-![Image text](./images/chandao.jpg)
+![](./images/chandao.jpg)
 ![](./images/jci-account.jpg)
 
 ## 三、开发环境搭建

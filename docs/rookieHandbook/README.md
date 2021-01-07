@@ -23,8 +23,10 @@
 :::   
 ![](./images/chandao.jpg)
 ![](./images/jci-account.jpg)
+
 ## 三、开发环境搭建
 选择产品—>选择H5—>对应的应用—>创建变更（已有变更就不需要创建）—>点击相关变更绑定分支—>选择dev环境—>构建部署仓库
+
 ## 四、仓库代码&部署权限申请
 1）仓库代码  
 选择代码—>选择仓库—>创建仓库
@@ -35,5 +37,8 @@
 :::   
 ![](./images/jci-application.jpg) 
 ## 五、代码拉取&运行
-git clone 仓库地址  
+git clone 仓库地址 
+
+npm install
+
 npm run dev

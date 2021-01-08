@@ -220,7 +220,7 @@ public 文件夹下新建 manifest.json 文件，添加
 
 ### 新建仓库一： USERNAME.github.io （不用克隆到本地）
 
-<b>！！！注意：USERNAME 必须是你 Github 的账号名称，不是你的名字拼音，也不是你的非主流网名，不要瞎起，要保证和Github账号名一模一样！</b>
+<b>！！！注意：USERNAME 必须是你 Github 的账号名称，不要瞎起，要保证和Github账号名一模一样！</b>
 
 例如我的 Github 账号名称是 tiantian2xf
 
@@ -294,86 +294,5 @@ git push -f git@github.com:tiantian2xf/tiantian2xf.github.io.git master
 
     npm run deploy
 
-此时打开 Github Settings 中下面的链接: [https://tiantian2xf.github.io/](https://tiantian2xf.github.io/) 即可看到自己的主页啦~
-
-<!-- ![](/images/eg2.png)
-
-#### PC 端页面是这样的：
-![](/images/eg3.png)
-
-#### 手机端页面是这样的：
-![](/images/eg4.png=200x)
-<img src="/images/eg4.png" style="width: 50%; display: block; margin: 0 auto;">
-
-可以看到导航栏变成了左上角的小图标，可以打开和收起。
-
-## 五、发布到自己的个人域名
-如果你不满足于 https://tiantian2xfcc.github.io/ 这样的域名，想要一个自己个人的专属域名，比如 http://www.tiantian2xf.cc/ ，毕竟一些大牛（阮一峰 [http://www.ruanyifeng.com/blog/](http://www.ruanyifeng.com/blog/)） 都是自己名字的网址哦，很方便很酷呢 😎 
-
-下面跟着步骤一步步来就好啦~
-
-### 购买域名
-推荐在 [新网](http://www.xinnet.com/domain/domain.html) 或 [万网](https://wanwang.aliyun.com/) 购买。
-
-我是在新网购买的，下面以新网为例，万网是类似的。
-
-购买完成后进入管理后台，点击 ”解析“ 按钮，添加下面两条内容：
-![](/images/eg5.png)
-
-![](/images/eg6.png)
-
-::: warning 注意！这里有坑：
-在 万网 购买域名的同学请注意，第二条记录中的 * 请用 @ 代替，万网不支持 *
-:::
-
-记录值里的 IP 可以通过 ping Github 的域名得到：
-
-    ping www.username.github.io
-
-### 修改仓库二中的 deploy.sh 文件
-
-将仓库二中的 deploy.sh 文件的第 13 行反注释掉，并填上自己的域名，deploy.sh 文件的最终版：
-
-```sh
-#!/usr/bin/env sh
-
-# 确保脚本抛出遇到的错误
-set -e
-
-# 生成静态文件
-npm run build
-
-# 进入生成的文件夹
-cd docs/.vuepress/dist
-
-# 如果是发布到自定义域名
-echo 'www.tiantian.cc' > CNAME
-
-git init
-git add -A
-git commit -m 'deploy'
-
-# 如果你想要部署到 https://<USERNAME>.github.io
-git push -f git@github.com:tiantian2xf/projectSpecification.git master
-
-# 如果发布到 https://<USERNAME>.github.io/<REPO>  REPO=github上的项目
-# git push -f git@github.com:<USERNAME>/vuepress.git master:gh-pages
-
-cd -
-
-```
-
-此时，我们运行 npm run deploy 即可发布到自己的专属域名啦~
-
-### :clap: 大功告成，打开 [https://www.tiantian.cc](https://www.tiantian.cc) 看一下吧~~~
-
-
-## 六、最后
-- 你需要一些 [Markdown](https://www.jianshu.com/p/b03a8d7b1719) 语法的基础知识；
-- 你需要一个 [Github](https://github.com/) 账号，并在里面创建两个 repo；
-- Github 需要添加 ssh key，第一次使用的同学遇到问题可以百度解决；
-
-我的 [vuepress-devkit](https://github.com/tiantian2xf/projectSpecification) 已经开源放在了 Github 上，还有很多想要增加的功能，例如添加评论模块、自动生成侧边栏目录、增加网站分析工具等等，在这里欢迎大家 Star 或者 Fork 。 -->
-
-
+<!-- 此时打开 Github Settings 中下面的链接: [https://tiantian2xf.github.io/](https://tiantian2xf.github.io/) 即可看到自己的主页啦~ -->
 

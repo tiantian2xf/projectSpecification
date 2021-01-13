@@ -16,25 +16,15 @@ module.exports = {
   },
   themeConfig: {
     nav:[ // 导航栏配置
-      // 大概的写了一点，这两周在做临时上线的需求，和1.4的UI走查，没花太多时间写
-      // 分了八类：
-      // 开发流程规范：需求开发流程、缺陷修复指派流程、上线流程
-      // 项目文档：readme
-      // 新人手册：开发工具、环境、VPN申请、JCI账号申请
-      // 编码规范：命名、文件目录...
-      // 日志规范
-      // 仓库&分支创建流程及规范
-      // 开发工作版本
-      // Nginx日志规范
-      {text: '新人手册', link: '/rookieHandbook/'},
-      {text: '编码规范', link: '/codingSpecification/'},
-      {text: 'UI规范', link: '/UIDesignSpecification/'},
-      {text: '开发规范', link: '/developmentProcess/' },
-      {text: '项目文档', link: '/readmeProcess/'},
+      {text: '新人入职指南', link: '/rookieHandbook/'},
+      {text: '编码规范', link: '/developmentProcess/' },//布局规范合并到编码规范
+      {text: '开发规范', link: '/codingSpecification/'},
+      // {text: '布局规范', link: '/UIDesignSpecification/'},
+      {text: '文档模板', link: '/readmeProcess/'},
+      {text: '仓库创建规范', link: '/warehouseBranchSpecification/'} ,
       {text: '日志规范', link: '/logSpecification/'} ,
-      {text: '仓库&分支规范', link: '/warehouseBranchSpecification/'} ,
-      {text: '开发版本规范', link: '/developmentVersionSpecification/'} ,
-      {text: 'Nginx日志规范', link: '/nginxLogSpecification/'} 
+      {text: '性能规范', link: '/developmentVersionSpecification/'} ,
+      {text: '工具Lint', link: '/nginxLogSpecification/'} 
     ],
     // sidebar:{
     //   '/accumulate/': [

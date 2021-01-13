@@ -17,14 +17,14 @@ module.exports = {
   themeConfig: {
     nav:[ // 导航栏配置
       {text: '新人入职指南', link: '/rookieHandbook/'},
-      {text: '编码规范', link: '/developmentProcess/' },//布局规范合并到编码规范
-      {text: '开发规范', link: '/codingSpecification/'},
+      {text: '编码规范', link: '/codingSpecification/' },//布局规范合并到编码规范
+      {text: '开发规范', link: '/developmentProcess/'},
       // {text: '布局规范', link: '/UIDesignSpecification/'},
-      {text: '文档模板', link: '/readmeProcess/'},
-      {text: '仓库创建规范', link: '/warehouseBranchSpecification/'} ,
+      {text: '文档模板', link: '/documentTemplate/'},
+      {text: '仓库创建规范', link: '/warehouseCreationSpecification/'} ,
       {text: '日志规范', link: '/logSpecification/'} ,
-      {text: '性能规范', link: '/developmentVersionSpecification/'} ,
-      {text: '工具Lint', link: '/nginxLogSpecification/'} 
+      {text: '性能规范', link: '/performanceSpecification/'} ,
+      {text: '工具Lint', link: '/toolLintSpecification/'} 
     ],
     // sidebar:{
     //   '/accumulate/': [

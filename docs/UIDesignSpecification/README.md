@@ -24,6 +24,7 @@ UI设计规范为了统一图形界面规范，为设计与开发人员提供统
 ![](/images/UIDesign/UIDesign_11.png)
 ### 1.4 及时反馈
 ![](/images/UIDesign/UIDesign_12.png)
+![](/images/UIDesign/UIDesign_12-1.png)
 ## 2.视觉设计
 ### 2.1 色彩
 ![](/images/UIDesign/UIDesign_14.png)
